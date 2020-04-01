@@ -13,8 +13,9 @@ p {
 
 img {
     display: block;
+    max-width: 100%;
     margin-left: auto;
-    margin-right-auto;
+    margin-right: auto;
     border-style: solid;
     border-width: 40px 75px 40px 75px;
     border-color: #af8c6b;
@@ -26,6 +27,7 @@ figcaption {
 
 h2 {
     text-align: center;
+    padding: 40px;
 }
 
 ul {
@@ -37,7 +39,6 @@ ul {
 li {
     padding: 5px;
 }
-/* should center, shrink, italicise, change font size on the <blockquote> */
 
 h3 {
     text-align: center;
